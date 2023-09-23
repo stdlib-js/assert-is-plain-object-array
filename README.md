@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@deno/mod.js';
+import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@v0.1.0-deno/mod.js';
 ```
 
 #### isPlainObjectArray( value )
@@ -84,7 +84,7 @@ bool = isPlainObjectArray( [ null, {} ] );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@deno/mod.js';
+import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@v0.1.0-deno/mod.js';
 
 var bool = isPlainObjectArray( [ { 'beep': 'boop' }, {}, {} ] );
 // returns true
