@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@esm/index.mjs';
+import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@v0.1.0-esm/index.mjs';
 ```
 
 #### isPlainObjectArray( value )
@@ -89,7 +89,7 @@ bool = isPlainObjectArray( [ null, {} ] );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@esm/index.mjs';
+import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@v0.1.0-esm/index.mjs';
 
 var bool = isPlainObjectArray( [ { 'beep': 'boop' }, {}, {} ] );
 // returns true
