@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-plain-object-array/tags). For example,
+
+```javascript
 import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@v0.2.3-esm/index.mjs';
 ```
 
@@ -89,7 +94,7 @@ bool = isPlainObjectArray( [ null, {} ] );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@v0.2.3-esm/index.mjs';
+import isPlainObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object-array@esm/index.mjs';
 
 var bool = isPlainObjectArray( [ { 'beep': 'boop' }, {}, {} ] );
 // returns true
